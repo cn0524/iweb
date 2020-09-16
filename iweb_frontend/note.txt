@@ -43,6 +43,15 @@
   方式3：使用图标字体(icon font)，本质是文字字符（可以无限缩放/改变颜色/改变背景/加粗/变斜），呈现的外观是图标。——推荐使用开源的FontAwsome图标字体（提供了675个常用的图标）
   
 FontAwsome的使用步骤：
+1.下载字体文件，保存到项目目录下，如fonts/，以供用户浏览网页时可以下载到字体文件
+2.在css文件中声明两个class
+ @font-face{
+	 font-family:'FontAwsome';
+	 src:url('../fonts/fontawsome.tff');
+ }
+ .fa{
+	 font-family:"FontAwsome"
+ }
 
 
 今晚任务：
